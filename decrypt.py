@@ -17,5 +17,9 @@ def decrypted_str(encrypted_str):
     else:
             decrypt_str += char
     return decrypt_str
+# lets add a loading feature
+import time
+print("Decrypting your text, Please Wait...".center(150))
+time.sleep(3)
 # print the output
 print("Decryption Complete. Your Plain Text is " + decrypted_str(encrypt_str))
