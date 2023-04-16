@@ -3,6 +3,7 @@
 #Problem 2: Lab Exercise 1
 
 # Create a input for user
+encrypt_str = input("What is the text that you are trying to decrypt?: ")
 # Create a list of substitutions wherein this will be the basis of our program to decrypt the text
 # Create an empty list wherein it accepts the decrypted text
 # With the use of "For Loop", we command that every special text included in the input must be replace with their specific equivalent in the list of substitutions
