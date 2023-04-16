@@ -10,5 +10,11 @@ def decrypted_str(encrypted_str):
 # Create an empty list wherein it accepts the decrypted text
     decrypt_str = ""    
 # With the use of "For Loop", we command that every special text included in the input must be replace with their specific equivalent in the list of substitutions
+    for char in encrypt_str:
+        if char in decrypted_dict:
+            decrypt_str += decrypted_dict[char]
 # Else just copy the char from the input then return the output
+    else:
+            decrypt_str += char
+    return decrypt_str
 # print the output
